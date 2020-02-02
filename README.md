@@ -1,2 +1,7 @@
-# My_scss_boiler_plate
-My scss Boiler Plate
+# base-UI-2-Adv-RigNet
+
+# base-UI-2-Adv-RigNet
+
+My Boiler plate Scss
+
+# Steps to install

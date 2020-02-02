@@ -1,0 +1,15 @@
+@mixin break($size) {
+  @media (min-width: map-get($breakpoints, $size)) {
+    @content;
+  }
+}
+
+@mixin fontImporter($font-family, $url, $format) {
+  @font-face {
+    font-family: $font-family;
+    src: url($url);
+    src: url($url) format($format);
+    font-weight: normal;
+    font-style: normal;
+  }
+}

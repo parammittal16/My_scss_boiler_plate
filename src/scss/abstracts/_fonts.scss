@@ -1,0 +1,5 @@
+@include fontImporter('HelveticaNeue', '../assets/fonts/HelveticaNeue.ttf', 'truetype');
+@include fontImporter('HelveticaNeueBold', '../assets/fonts/HelveticaNeueLTStd-Bd.otf', 'opentype');
+@include fontImporter('HelveticaNeueLight', '../assets/fonts/HelveticaNeueLTStd-Lt.otf', 'opentype');
+@include fontImporter('HelveticaNeueBlack', '../assets/fonts/HelveticaNeueLTStd-Blk.otf', 'opentype');
+@include fontImporter('HelveticaNeueRoman', '../assets/fonts/HelveticaNeueLTStd-Roman.otf', 'opentype');

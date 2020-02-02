@@ -1,0 +1,25 @@
+{
+  "name": "base-ui-2-adv-rignet",
+  "title": "RigNet Site",
+  "author": "Param Mittal",
+  "version": "1.0.5",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://code.jtg.tools/parammittal16/base-ui-2-adv-rignet.git"
+  },
+  "scripts": {
+    "compile": "node-sass src/scss -o src/css",
+    "autoprefix": "postcss src/css/styles.css -u autoprefixer -r",
+    "minify": "postcss src/css/styles.css > src/css/styles.min.css",
+    "start": "watch 'npm run compile && npm run autoprefix && npm run minify' src/scss"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "cssnano": "^4.1.10",
+    "node-sass": "^4.13.1",
+    "postcss": "^7.0.26",
+    "postcss-cli": "^7.1.0",
+    "watch": "^1.0.2"
+  }
+}
